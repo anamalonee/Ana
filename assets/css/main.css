@@ -2572,7 +2572,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		position: relative;
+		postiion: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -3326,4 +3326,8 @@ input, select, textarea {
 				padding: 0 1.25em;
 			}
 
+		}/* Container */
+		.form-container {
+			margin-left: 200px; /* Ajusta el margen izquierdo según sea necesario */
+			margin-right: 200px; /* Ajusta el margen derecho según sea necesario */
 		}
